@@ -16,6 +16,22 @@ body {
   margin: 4px 2px;
   cursor: pointer;
 }
-.out{
-  
+
+#day{
+display: none;
+color: blue;
+text-decoration: none;
+font-size: 30px;
+}
+#morn{
+display: none;
+color: yellow;
+text-decoration: none;
+font-size: 30px;
+}
+#eve{
+display: none;
+color: red;
+text-decoration: none;
+font-size: 30px;
 }

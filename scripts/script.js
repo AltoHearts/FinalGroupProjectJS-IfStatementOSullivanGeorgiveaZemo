@@ -1,14 +1,14 @@
-function myFunction() {
- var greeting;
+function myFunction()
+ {
+ var morning = document.getElementById("morn");
+ var day = document.getElementById("day");
+ var evening = document.getElementById("eve");
   var time = new Date().getHours();
   if (time < 10) {
-    greeting = "Good morning";
+    morning.style.display = "block";
   } else if (time < 20) {
-    greeting = "Good day";
+    day.style.display = "block";
   } else {
-    greeting = "Good evening";
+    evening.style.display = "block";
   }
-  document.getElementById("demo").innerHTML = greeting;
 }
-//declare greeting global 
-//create java sec in html 
